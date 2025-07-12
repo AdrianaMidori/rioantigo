@@ -1,0 +1,26 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+}
+/*
+li{
+    display: inline;
+}
+*/
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  text-align: center;
+  background-color: #dddddd;
+}
+
+/* Muda a cor do link para #fadddd quando o mouse passar no link */
+li a:hover {
+  background-color: #fadddd;
+}
