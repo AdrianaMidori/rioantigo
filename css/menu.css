@@ -1,3 +1,4 @@
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -10,7 +11,17 @@ li{
 }
 */
 li {
-  float: left;
+    float: left;
+}
+
+p::first-line{
+   color: rgb(255, 94, 0);
+   text-transform: uppercase;
+}
+
+p:hover{
+  background-color: blue;
+  color:rgb(213,216,179);
 }
 
 li a {

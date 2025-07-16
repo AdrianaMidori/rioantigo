@@ -7,19 +7,27 @@ body {
 }
 
 h1 {
+   border-top: 2px solid rgb(45, 0, 128);
+   border-bottom: 2px solid rgb(45, 0, 128);
    color: red;
 }
 
 h3 {
-   color: green;
+   color: rgb(13, 170, 197);
 }
 
 p {
+   border-color:rgb(0,128,0);
+   border-style:solid;
+   border-width:2px;
+
    font-family: monospace;
-   font-size: 12px;
+   font-size: 13px;
 }
 
 #art02 {
+   border-radius: 5%;
+   border-style : dotted;
    background-color: bisque;
    color: green;
 }
